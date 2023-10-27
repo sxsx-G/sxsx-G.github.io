@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Herry的网站</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-10-27T01:06:22.527Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>sxsx</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DC06PE11</title>
+    <link href="http://example.com/2023/10/26/DC06PE11/"/>
+    <id>http://example.com/2023/10/26/DC06PE11/</id>
+    <published>2023-10-26T13:41:35.000Z</published>
+    <updated>2023-10-27T01:06:22.527Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;allinclude.h&quot;</span>  <span class="comment">//DO NOT edit this line</span></span></span><br><span class="line"></span><br><span class="line">TElemType <span class="title function_">PreOrderKHelper</span><span class="params">(BiTree T, <span class="type">int</span>* k)</span></span><br><span class="line"></span><br><span class="line">{</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span>(T == <span class="literal">NULL</span> || *k &lt;= <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">&#x200B;    <span class="keyword">return</span> <span class="string">&apos;#&apos;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (--(*k) == <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">&#x200B;    <span class="keyword">return</span> T-&gt;data;</span><br><span class="line"></span><br><span class="line">  TElemType left = PreOrderKHelper(T-&gt;lchild, k);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (*k == <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">&#x200B;    <span class="keyword">return</span> left;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> PreOrderKHelper(T-&gt;rchild, k);</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">TElemType <span class="title function_">PreOrderK</span><span class="params">(BiTree T, <span class="type">int</span> k)</span> {</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> PreOrderKHelper(T, &amp;k);</span><br><span class="line"></span><br><span class="line">}</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;li</summary>
+      
+    
+    
+    
+    <category term="数据结构第六章" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%AC%E5%85%AD%E7%AB%A0/"/>
+    
+    
+    <category term="数据结构" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小林的笑容</title>
+    <link href="http://example.com/2023/10/26/%E5%B0%8F%E6%9E%97%E7%9A%84%E7%AC%91%E5%AE%B9/"/>
+    <id>http://example.com/2023/10/26/%E5%B0%8F%E6%9E%97%E7%9A%84%E7%AC%91%E5%AE%B9/</id>
+    <published>2023-10-26T12:58:24.000Z</published>
+    <updated>2023-10-27T02:59:35.409Z</updated>
+    
+    <content type="html"><![CDATA[<img src="/2023/10/26/%E5%B0%8F%E6%9E%97%E7%9A%84%E7%AC%91%E5%AE%B9/&#x6797;&#x7B11;.jpg" alt="&#x5C0F;&#x6797;&#x7684;&#x7B11;&#x5BB9;" style="zoom:50%;">]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;img src=&quot;/2023/10/26/%E5%B0%8F%E6%9E%97%E7%9A%84%E7%AC%91%E5%AE%B9/&amp;#x6797;&amp;#x7B11;.jpg&quot; alt=&quot;&amp;#x5C0F;&amp;#x6797;&amp;#x7684;&amp;#x7B11;&amp;#x5BB9;&quot; sty</summary>
+      
+    
+    
+    
+    <category term="表情包" scheme="http://example.com/categories/%E8%A1%A8%E6%83%85%E5%8C%85/"/>
+    
+    
+    <category term="表情包" scheme="http://example.com/tags/%E8%A1%A8%E6%83%85%E5%8C%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构anywiew第六章</title>
+    <link href="http://example.com/2023/10/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84anywiew%E7%AC%AC%E5%85%AD%E7%AB%A0/"/>
+    <id>http://example.com/2023/10/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84anywiew%E7%AC%AC%E5%85%AD%E7%AB%A0/</id>
+    <published>2023-10-26T11:07:38.000Z</published>
+    <updated>2023-10-26T13:39:38.278Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="&#x9898;&#x76EE;&#x5E8F;&#x53F7;DC06PE02"><a href="#&#x9898;&#x76EE;&#x5E8F;&#x53F7;DC06PE02" class="headerlink" title="&#x9898;&#x76EE;&#x5E8F;&#x53F7;DC06PE02"></a>&#x9898;&#x76EE;&#x5E8F;&#x53F7;DC06PE02</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;allinclude.h&quot;</span></span></span><br><span class="line">Status <span class="title function_">is_Desendant</span><span class="params">(SqBiTree T, <span class="type">int</span> u, <span class="type">int</span> v)</span>  </span><br><span class="line">{  <span class="comment">// Add your code here</span></span><br><span class="line">   <span class="keyword">if</span>(v&gt;T.lastIndex || u&gt;T.lastIndex || v&lt;=u || u&lt;<span class="number">1</span> || v&lt;<span class="number">1</span>) </span><br><span class="line">  <span class="keyword">return</span> FALSE;</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span> (v&gt;u) {</span><br><span class="line">    <span class="keyword">if</span> (v/<span class="number">2</span>==u) {</span><br><span class="line">        <span class="keyword">return</span> TRUE;</span><br><span class="line">    }</span><br><span class="line">    v/=<span class="number">2</span>;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">return</span> FALSE;</span><br><span class="line"></span><br><span class="line">}</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;&amp;#x9898;&amp;#x76EE;&amp;#x5E8F;&amp;#x53F7;DC06PE02&quot;&gt;&lt;a href=&quot;#&amp;#x9898;&amp;#x76EE;&amp;#x5E8F;&amp;#x53F7;DC06PE02&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x9898;&amp;#x7</summary>
+      
+    
+    
+    
+    <category term="数据结构第六章" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%AC%E5%85%AD%E7%AB%A0/"/>
+    
+    
+    <category term="数据结构" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+</feed>
